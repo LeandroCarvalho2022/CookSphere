@@ -5,7 +5,7 @@
     height: 100vh;
 }
 .welcome{
-    background-image: url(/assets/backgrounds/background.png);
+    background-image: url(/assets/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
