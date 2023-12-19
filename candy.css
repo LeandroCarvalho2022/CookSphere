@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+body {
+  background-image: url(/assets/backgrounds/img-noise-1500x1000.png);
+  
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 10px;
+}
+
+.navbar{
+  box-shadow: 1px 2px 5px black;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarlinks{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  padding: 15px;
+}
+.navlinks{
+  text-decoration: none;
+  color: #111111;
+  font-size: 20px;
+  padding: 5px;
+  box-shadow: 1px 2px 6px;
+  border-radius: 5px;
+}
+.navlinks:hover{
+  color: #ffffff;
+  transition: .4s;
+  
+}
+
+h1{
+  width: fit-content;
+}
+.container {
+  justify-content: center;
+  display: grid;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0px 12px;
+}
+.content {
+  display: grid;
+  height: fit-content;
+  width: 100%;
+  padding-bottom: 20px;
+  justify-items: center;
+}
+.row {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 25px;
+}
+.col-4 {
+  display: grid;
+  width: 100%;
+  height: fit-content;
+}
+#title{
+    box-shadow: 1px 2px 5px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+input {
+  width: auto;
+  height: auto;
+}
+button {
+  background-color: #d7d7fd;
+  width: 90px;
+  height: 40px;
+  border-radius: 12px;
+}
+button:hover{
+  font-size: 20px;
+  color: white;
+  box-shadow: 2px 3px 8px black;
+  width: 95px;
+  height: 45px;
+  transition: .3s;
+  background-color: #111111;
+}
+.card-img-top {
+  width: 250px;
+  height: 250px;
+  border-radius: 12px 36px 12px 36px;
+  background-color: rgb(45, 26, 3);
+  box-sizing: border-box;
+  box-shadow: 5px 5px 12px #fcddec;
+  margin-bottom: 22px;
+  border: #fdfafa 5px dashed;
+}
+.card-body {
+  overflow: hidden;
+  background-color: rgb(45, 26, 3);
+  border-radius: 36px 12px 36px 12px;
+  padding: 30px;
+  border: dashed 5px #fdfafa ;
+  color: white;
+}
+.card-title{
+  font-weight: bold;
+  font-size: 29px;
+}
+
+/* howto */
+#howto{
+  display: flex;
+  justify-content: center ;
+  align-items: center ;
+  border-radius: 12px;
+  
+  flex-direction: column;
+}
+#anch {
+  width: fit-content;
+  background-color: rgb(148, 103, 35);
+  padding: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #111111;
+}
+#anch:hover{
+  transition: .3s;
+  box-shadow: 3px 3px 15px black;
+  padding: 15px;
+  color: white;
+}
+.instruc{
+  font-size: 20px;
+  background-color: #1d5a6d4a;
+}
+
+
+/* media queries */
+
+@media screen and (min-width: 600px) {
+    #howto{
+      width: 50% !important;
+    }
+    #howtoimg{
+      width: 500px !important;
+    }
+}
